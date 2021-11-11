@@ -1,0 +1,98 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(199, 237, 255);
+    
+}
+div.imagemcapa{
+    background-image: url(Img/capa.jpg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1280px;
+    height: 290px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+   background-color: rgba(255, 255, 255, 0.246);
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-fill-color: white;
+   font-size: 43px;
+   
+}
+h1#opcao2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   -webkit-text-fill-color: rgb(8, 60, 158);
+   color:white;
+   font-size: 43px;
+   text-align: center;
+   background-color: rgba(175, 251, 74, 0.466);
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+    -webkit-text-fill-color: rgb(8, 60, 158);
+    text-align: center;
+    
+}
+
+div.agrupamento{
+    background-color: rgba(175, 251, 74, 0.466);
+    content: "";
+    clear: both;
+    display: table;
+  align-items: center;
+  justify-content: center;
+ 
+}
+div.agrupamento2{
+    background-color: rgba(175, 251, 74, 0.466);
+    content: "";
+    clear: both;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.coluna{
+    float: left;
+    width: 33.3%;
+}
+
+p#menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+p#menu > span{
+    display: none;
+    
+ }
+ p#menu:hover > span{
+     display: block;
+ }
+ span{
+     text-align: center;
+    
+ }
+table{
+    border:solid black;
+    background: rgba(244, 244, 245, 0.664);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+a.a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(8, 60, 158);;
+}
